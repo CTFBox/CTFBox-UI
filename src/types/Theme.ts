@@ -2,6 +2,7 @@
  * Theme type.
  */
 export type Theme = {
+  /* Colors */
   primary: string
   secondary: string
   success: string
