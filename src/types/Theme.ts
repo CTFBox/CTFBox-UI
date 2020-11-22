@@ -15,6 +15,11 @@ export type Theme = {
   text: string
   textGray: string
   textWhite: string
+
+  /* Styles */
+  shadow: string
+  dropShadow: string
+  rounded: string
 }
 
 /**
