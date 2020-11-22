@@ -33,6 +33,11 @@ export default function App({
       </ThemeProvider>
 
       <style global jsx>{`
+        @font-face {
+          font-family: 'bananaslip';
+          src: url('/bananaslip.otf');
+        }
+
         html,
         body {
           background: ${theme.background};
