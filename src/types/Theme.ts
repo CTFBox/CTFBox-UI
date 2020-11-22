@@ -15,3 +15,8 @@ export type Theme = {
   textGray: string
   textWhite: string
 }
+
+/**
+ * ThemeKey type.
+ */
+export type ThemeKey = keyof Theme
