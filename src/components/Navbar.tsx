@@ -10,7 +10,6 @@ const NavbarContainer = styled.nav`
   display: flex;
   align-items: center;
 
-  width: 100%;
   height: 64px;
 
   color: ${useThemeKey('textWhite')};
