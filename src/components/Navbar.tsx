@@ -3,7 +3,7 @@ import { useThemeKey } from '../helpers/useThemeKey'
 import { Link } from './Link'
 
 const NavbarImage = styled.img`
-  width: 32px;
+  width: 40px;
 `
 
 const NavbarContainer = styled.nav`
@@ -22,6 +22,7 @@ const NavbarContainer = styled.nav`
 const NavbarTitle = styled.div`
   color: ${useThemeKey('textWhite')};
   font-family: bananaslip;
+  font-size: 1.2rem;
 
   margin: 0 16px;
 `
