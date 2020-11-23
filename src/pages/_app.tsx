@@ -23,7 +23,7 @@ export default function App({
 
     shadow: 'box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.3);',
     dropShadow: 'box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);',
-    rounded: 'box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.3);',
+    rounded: 'border-radius: 4px;',
   })
 
   return (
