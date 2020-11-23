@@ -26,6 +26,10 @@ const NavbarTitle = styled.div`
   margin: 0 16px;
 `
 
+const CTFText = styled.span`
+  color: ${useThemeKey('primary')};
+`
+
 /**
  * Navbar component.
  */
@@ -34,7 +38,10 @@ export const Navbar: React.FC = () => {
     <NavbarContainer>
       <NavbarImage src="/ctfbox.svg" alt="logo" />
       <NavbarTitle>
-        <Link to="/">CTFBox</Link>
+        <Link to="/">
+          <CTFText>CTF</CTFText>
+          Box
+        </Link>
       </NavbarTitle>
     </NavbarContainer>
   )
