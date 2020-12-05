@@ -22,7 +22,7 @@ export default function App({
     textGray: '#B0B0B0',
     textWhite: '#FFFFFF',
 
-    shadow: 'box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);',
+    shadow: 'box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);',
     dropShadow: 'box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);',
     rounded: 'border-radius: 4px;',
   })
