@@ -10,6 +10,7 @@ export type Theme = {
   black: string
   blackLight: string
   blackBlue: string
+  lightGray: string
   white: string
   background: string
   text: string

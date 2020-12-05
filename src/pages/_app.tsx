@@ -15,6 +15,7 @@ export default function App({
     black: '#000000',
     blackLight: '#202020',
     blackBlue: '#14171B',
+    lightGray: '#f0f0f0',
     white: '#FFFFFF',
     background: '#F5F5F5',
     text: '#202020',
