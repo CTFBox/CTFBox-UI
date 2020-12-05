@@ -20,3 +20,7 @@ export const CardText = styled.div`
 
   padding: 16px;
 `
+
+export const CardActions = styled.div`
+  padding: 8px;
+`
