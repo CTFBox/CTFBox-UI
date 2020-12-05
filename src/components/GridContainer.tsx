@@ -5,7 +5,13 @@ import styled from 'styled-components'
  */
 export const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+
+  @media screen and (min-width: 480px) {
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  }
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
   column-gap: 24px;
   row-gap: 32px;
 `
